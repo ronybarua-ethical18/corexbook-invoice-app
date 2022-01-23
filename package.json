@@ -1,0 +1,33 @@
+{
+  "name": "corexbook-backend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon bin/www"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "debug": "~2.6.9",
+    "dotenv": "^10.0.0",
+    "express": "~4.16.0",
+    "express-jwt": "^6.1.0",
+    "get-stream": "^6.0.1",
+    "http-errors": "~1.6.2",
+    "jade": "^0.29.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.2",
+    "morgan": "~1.9.0",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.15",
+    "npm": "^8.3.2",
+    "pdfkit": "^0.13.0"
+  },
+  "devDependencies": {
+    "prettier": "2.5.1"
+  }
+}
